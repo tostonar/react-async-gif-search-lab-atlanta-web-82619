@@ -2,7 +2,7 @@ import React from 'react';
 
 const GifList = (props) => {
   const listItems = props.gifs.map(gif => {
-    return <li><img src={gif} alt=""></img></li>
+    return <li><img key={gif} src={gif} alt="gof"></img></li>
   })
 
   return (

@@ -26,10 +26,10 @@ class GifListContainer extends React.Component {
 
   render() {
     return (
-      <React.Fragment>
-        <GifList style={{flex: '50%' }} gifs={this.state.images} />
-        <GifSearch style={{flex: '50%' }} getGifs={this.getGifs} />
-      </React.Fragment>
+      <div>
+        <GifSearch  getGifs={this.getGifs} />
+        <GifList  gifs={this.state.images} />
+      </div>
     )
   }
 

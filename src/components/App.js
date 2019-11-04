@@ -8,7 +8,7 @@ const App = () => {
   return (
     <div>
         < NavBar color='black' title="Giphy Search" />
-        < GifListContainer style={{display: 'flex'}} />
+        < GifListContainer  />
     </div>
   )
 }
